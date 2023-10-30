@@ -13,7 +13,7 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/QuizBuilder-2" element={<Home />} />
         <Route path="/my-quizzes" element={<MyQuizzes />} />
         <Route path="/create-new" element={<CreateNew />} />
         <Route path="/play-quiz" element={<PlayQuiz />} />
