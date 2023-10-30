@@ -69,7 +69,7 @@ export const MyQuizzes = () => {
               <h1>My Quizes</h1>
             </div>
             <div className="create-new-btn">
-              <NavLink to="/create-new">
+              <NavLink to="/QuizBuilder-2/create-new">
                 <button className="create-new-button">Create New Quiz</button>
               </NavLink>
             </div>

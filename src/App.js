@@ -15,9 +15,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/my-quizzes" element={<MyQuizzes />} />
-        <Route path="/create-new" element={<CreateNew />} />
-        <Route path="/play-quiz" element={<PlayQuiz />} />
-        <Route path="/quiz" element={<Quiz />} />
+        <Route path="/QuizBuilder-2/create-new" element={<CreateNew />} />
+        <Route path="/QuizBuilder-2/play-quiz" element={<PlayQuiz />} />
+        <Route path="/QuizBuilder-2/quiz" element={<Quiz />} />
       </Routes>
     </div>
   );

@@ -19,7 +19,7 @@ export const ResultModel = ({ name }) => {
   const resetQuizHandler = () => {
     disptach(resetQuiz());
 
-    navigate("/");
+    navigate("/QuizBuilder-2");
   };
 
   return (
