@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <NavLink to="/QuizBuilder-2">
+        <NavLink to="/">
           <img src={logo} alt="" width="120px" />
         </NavLink>
       </div>
