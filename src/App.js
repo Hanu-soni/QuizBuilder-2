@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Navbar />
 
+      
       <Routes>
         <Route path="/QuizBuilder-2" element={<Home />} />
         <Route path="/QuizBuilder-2/my-quizzes" element={<MyQuizzes />} />
@@ -19,6 +20,7 @@ function App() {
         <Route path="/QuizBuilder-2/play-quiz" element={<PlayQuiz />} />
         <Route path="/QuizBuilder-2/quiz" element={<Quiz />} />
       </Routes>
+      
     </div>
   );
 }

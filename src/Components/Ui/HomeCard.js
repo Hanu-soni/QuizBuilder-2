@@ -8,7 +8,7 @@ export const HomeCard = ({ color, heading, path, delay, image, size }) => {
   return (
     <motion.div
       className="home-card d-flex"
-      style={{ backgroundColor: `${color}` }}
+      style={{ boxShadow: "5px 5px 10px 0 rgba(0, 0, 0, 0.5)",border:"black 2px solid"}}
       initial={{ y: 100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.3, delay: delay }}

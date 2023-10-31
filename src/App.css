@@ -112,6 +112,7 @@ input:focus {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  background-image: url('./images/Background.jpg');
 }
 
 /* ////// */
@@ -617,5 +618,8 @@ input:focus {
   }
   .play-quiz-heading {
     margin: 20px 0;
+  }
+  .backgroundImg{
+    background-image: url('./images/Background.jpg');
   }
 }
