@@ -8,16 +8,15 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <NavLink to="/QuizBuilder-2">
+        
           <img src={logo} alt="" width="120px" />
-        </NavLink>
       </div>
 
       <div className="nav-links">
         <ul>
           <li>
             <NavLink
-              to="/QuizBuilder-2/create-new"
+              to="/QuizBuilder-2"
               className={({ isActive }) => (isActive ? "activenav" : "")}
             >
               Home

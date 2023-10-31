@@ -62,7 +62,7 @@ export const PlayQuiz = () => {
 
     if (quiz.length > 0) {
       dispatch(getName(name.current.value));
-      navigate("/quiz");
+      navigate("/QuizBuilder-2/quiz");
     }
   };
 

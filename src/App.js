@@ -14,7 +14,7 @@ function App() {
 
       <Routes>
         <Route path="/QuizBuilder-2" element={<Home />} />
-        <Route path="/my-quizzes" element={<MyQuizzes />} />
+        <Route path="/QuizBuilder-2/my-quizzes" element={<MyQuizzes />} />
         <Route path="/QuizBuilder-2/create-new" element={<CreateNew />} />
         <Route path="/QuizBuilder-2/play-quiz" element={<PlayQuiz />} />
         <Route path="/QuizBuilder-2/quiz" element={<Quiz />} />

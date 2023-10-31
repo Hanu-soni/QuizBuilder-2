@@ -124,7 +124,7 @@ export const FormMain = () => {
 
     titleRef.current.value = "";
 
-    navigate("QuizBuilder-2/play-quiz");
+    navigate("/QuizBuilder-2/play-quiz");
   };
 
   return (
